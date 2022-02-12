@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav.bar{
+    background-color:lightgray;
+    padding:0.4em;
+}
+
+.bar li{
+    margin-left: 5px;;
+    display:inline;
+    font-size: 0.8em;
+}
+
+section.main{
+    display:grid;
+    grid-template-columns: 13vh;
+}
+
+article.tools{
+    background-color:lightgray;
+    height:100vh;
+    display:grid;
+    grid-template-columns:repeat(2, 0.5fr);
+    grid-template-rows:repeat(5, 0.05fr);
+    border-top: 1px solid darkgray;
+    padding:0.5em;
+}
+
+article.tools button{
+    background-color:lightgray;
+    font-size: 1.5em;
+    
+}
+
+canvas.board{
+    border: 5px solid grey;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+}
